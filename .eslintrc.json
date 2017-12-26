@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+
+    "rules": {
+        "indent": [2
+            // "error",
+            // "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": [
+            1
+            
+        ]
+
+        
+    },
+    "globals": {
+        "describe": true,
+        "it": true,
+        "expect": true,
+        "app": true,
+        "td": true,
+        "beforeEach": true,
+        "request": true,
+        "Joi": true,
+        "joiAssert": true
+      }
+}
